@@ -45,7 +45,7 @@ loop:
     call setballcoordinatesx
     call setballcoordinatesy
     call drawball
-    call check
+    call check ;bassicly also moves the paddles
     jmp loop
 
 clearpaddle:    ;clear the last paddle instead of clearing the whole screen
